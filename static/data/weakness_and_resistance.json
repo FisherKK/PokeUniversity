@@ -1,0 +1,2329 @@
+{
+  "bug": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Dark", "Grass", "Psychic"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Fighting", "Fire", "Flying", "Fairy", "Ghost", "Poison", "Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.39, "types": []
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Fighting", "Grass", "Ground"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Fire", "Flying", "Rock"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.39, "types": ["Psychic"]
+    }
+  },
+  "dark": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Ghost", "Psychic"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Dark", "Fighting", "Fairy"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.39, "types": ["Psychic"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Dark", "Ghost"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Bug", "Fighting", "Fairy"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.39, "types": []
+    }
+  },
+  "dragon": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Dragon"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Fairy"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Electric", "Fire", "Grass", "Water"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Dragon", "Fairy", "Ice"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.39, "types": []
+    }
+  },
+  "electric": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Flying", "Water"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Dragon", "Electric", "Grass"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Ground"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Electric", "Flying", "Steel"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Ground"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.39, "types": []
+    }
+  },
+  "fairy": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Dark", "Dragon", "Fighting"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Fire", "Poison", "Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.39, "types": ["Dragon"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Bug", "Dark", "Fighting"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Poison", "Steel"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.39, "types": []
+    }
+  },
+  "fighting": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Dark", "Ice", "Normal", "Rock", "Steel"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Bug", "Fairy", "Flying", "Poison", "Psychic"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Ghost"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Bug", "Dark", "Rock"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Fairy", "Flying", "Psychic"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.39, "types": []
+    }
+  },
+  "fire": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Bug", "Grass", "Ice", "Steel"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Dragon", "Fire", "Rock", "Water"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": []
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Bug", "Fire", "Fairy", "Grass", "Ice", "Steel"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Ground", "Rock", "Water"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  },
+  "flying": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Bug", "Fighting", "Grass"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Electric", "Rock", "Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Ground"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Bug", "Fighting", "Grass"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Electric", "Ice", "Rock"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  },
+  "ghost": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Ghost", "Psychic"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Dark"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Normal"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Bug", "Poison"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Dark", "Ghost"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": ["Normal", "Fighting"]
+    }
+  },
+  "grass": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Ground", "Rock", "Water"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Bug", "Dragon", "Fire", "Flying", "Grass", "Poison", "Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": []
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Electric", "Grass", "Ground", "Water"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Bug", "Fire", "Flying", "Ice", "Poison"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  },
+  "ground": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Electric", "Fire", "Poison", "Rock", "Steel"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Bug", "Grass"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Electric"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Poison", "Rock"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Grass", "Ice", "Water"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": ["Electric"]
+    }
+  },
+  "ice": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Dragon", "Flying", "Grass", "Ground"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Fire", "Ice", "Steel", "Water"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": []
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Ice"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Fighting", "Fire", "Rock", "Steel"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  },
+  "normal": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": []
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Rock", "Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Ghost"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": []
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Fighting"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": ["Ghost"]
+    }
+  },
+  "poison": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Grass", "Fairy"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Ghost", "Ground", "Poison", "Rock"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Steel"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Bug", "Fighting", "Fairy", "Grass", "Poison"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Ground", "Psychic"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  },
+  "psychic": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Fighting", "Poison"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Psychic", "Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": ["Dark"]
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Fighting", "Psychic"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Bug", "Dark", "Ghost"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  },
+  "rock": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Bug", "Fire", "Flying", "Ice"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Fighting", "Ground", "Steel"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": []
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Fire", "Flying", "Normal", "Poison"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Fighting", "Grass", "Ground", "Steel", "Water"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  },
+  "steel": {
+	  "super_effective": {
+      "dealing_damage": 1.6, "types": ["Fairy", "Ice", "Rock"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Electric", "Fire", "Steel", "Water"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": []
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Bug", "Dragon", "Fairy", "Flying", "Grass", "Ice", "Normal", "Psychic", "Rock", "Steel"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Fighting", "Fire", "Ground"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": ["Poison"]
+    }
+  },
+  "water": {
+    "super_effective": {
+      "dealing_damage": 1.6, "types": ["Fire", "Ground", "Rock"]
+    },
+    "not_very_effective": {
+      "dealing_damage": 0.625, "types": ["Dragon", "Grass", "Water"]
+    },
+    "immune_against": {
+      "dealing_damage": 0.391, "types": []
+    },
+    "resistant_to": {
+      "dealt_damage": 0.625, "types": ["Fire", "Ice", "Steel", "Water"]
+    },
+    "weak_to": {
+      "dealt_damage": 1.6, "types": ["Electric", "Grass"]
+    },
+    "immune_to": {
+      "dealt_damage": 0.391, "types": []
+    }
+  }
+}
+
+
+Grass/Poison
+Resistant
+	Grass Takes 39.1% damage
+    Electric Takes 62.5% damage
+	Fairy Takes 62.5% damage
+	Fight Takes 62.5% damage
+	Water Takes 62.5% damage
+Vulnerable
+	Fire: Takes 160% damage
+	Flying: Takes 160% damage
+	Ice: Takes 160% damage
+	Psychic: Takes 160% damage
+
+Bug/Flying
+Resistant
+	Ground Takes 24.4% damage
+	Fighting Takes 39.1% damage
+	Grass Takes 39.1% damage
+	Bug Takes 62.5% damage
+Vulnerable
+	Rock Takes 256% damage
+	Electric Takes 160% damage
+	Fire Takes 160% damage
+	Flying Takes 160% damage
+	Ice Takes 160% damage
+
+Bug/Poison
+Resistant
+	Fighting Takes 39.1% damage
+	Grass Takes 39.1% damage
+	Bug Takes 62.5% damage
+	Fairy Takes 62.5% damage
+	Poison Takes 62.5% damage
+Vulnerable
+	Fire Takes 160% damage
+	Flying Takes 160% damage
+	Psychic Takes 160% damage
+	Rock Takes 160% damage
+
+Normal/Flying
+Resistant
+	Ghost Takes 39.1% damage
+	Ground Takes 39.1% damage
+	Bug Takes 62.5% damage
+	Grass Takes 62.5% damage
+Vulnerable
+	Electric Takes 160% damage
+	Ice Takes 160% damage
+	Rock Takes 160% damage
+
+Ground/Poison
+Resistant
+	Electric Takes 39.1% damage
+	Poison Takes 39.1% damage
+	Bug Takes 62.5% damage
+	Fairy Takes 62.5% damage
+	Fighting Takes 62.5% damage
+	Rock Takes 62.5% damage
+Vulnerable
+	Ground Takes 160% damage
+	Ice Takes 160% damage
+	Psychic Takes 160% damage
+	Water Takes 160% damage
+
+Normal/Fairy
+Resistant
+	Dragon Takes 39.1% damage
+	Ghost Takes 39.1% damage
+	Bug Takes 62.5% damage
+	Dark Takes 62.5% damage
+Vulnerable
+	Poison Takes 160% damage
+	Steel Takes 160% damage
+
+Flying/Poison
+Resistant
+	Bug Takes 39.1% damage
+	Fighting Takes 39.1% damage
+	Grass Takes 39.1% damage
+	Fairy Takes 62.5% damage
+	Ground Takes 62.5% damage
+	Poison Takes 62.5% damage
+Vulnerable
+	Electric Takes 160% damage
+	Ice Takes 160% damage
+	Psychic Takes 160% damage
+	Rock Takes 160% damage
+
+Bug/Grass
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Fighting/Water
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Water/Poison
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Ground/Rock
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Psychic/Water
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Steel/Electric
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Water/Ice
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Ghost/Poison
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Grass/Psychic
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Fairy/Psychic
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Ice/Psychic
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Flying/Water
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+
+Rock/Water
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Flying/Rock
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Flying/Ice
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Flying/Electric
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Flying/Fire
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Dragon/Flying
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Water/Electric
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+
+Fairy/Flying
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Psychic/Flying
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Water/Fairy
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Grass/Flying
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ground/Water
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+
+Dark/Flying
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Psychic/Normal
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+
+Bug/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+
+Ground/Flying
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+
+Ground/Steel
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Bug/Rock
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Fighting
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Dark/Ice
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Fire/Rock
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Ice/Ground
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Steel/Flying
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+
+Dark/Fire
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Water/Dragon
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Dark/Rock
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Ghost
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Electric
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Flying
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Fairy
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Normal/Fighting
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Water
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Ground
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Dragon
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Fairy
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Psychic/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Psychic/Ghost
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+Grass/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+Dragon/Dark
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Steel/Fairy
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Fire/Fighting
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Water/Grass
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Dark
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Fighting
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Ground
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Ghost
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Dark
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+Steel/Rock
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+	Takes 160% damage
+Fighting/Psychic
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Water/Dark
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Ground
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+Ground/Dragon
+Resistant
+	Takes 24.4% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Rock/Psychic
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ground/Psychic
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Rock/Grass
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+
+Dragon/Psychic
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Dragon
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Ghost
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dark/Normal
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Psychic
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ice/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+	Takes 160% damage
+Ice/Fairy
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Dragon
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Poison/Dark
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+Rock/Electric
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Ghost
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Water/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Ground
+Resistant
+	Takes 24.4% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Normal/Water
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fighting/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Poison/Fighting
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Ice
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Ice
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Fire/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Dark
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Dragon
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Fairy
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Fire
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Ice
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Bug/Psychic
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dark/Electric
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dark/Fairy
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dark/Fighting
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Dark/Ground
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dark/Psychic
+Resistant
+	Takes 24.4% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+Dark/Steel
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Electric
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Fairy
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Fighting
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Ice
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Poison
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Dragon/Rock
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Fighting
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Fire
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Grass
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Ground
+Resistant
+	Takes 24.4% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Ice
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Electric/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Electric/Poison
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+Fairy/Fighting
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fairy/Fire
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fairy/Ghost
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Fairy/Ground
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fairy/Poison
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fairy/Rock
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fighting/Flying
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fighting/Ghost
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fighting/Ground
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fighting/Ice
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fighting/Rock
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Grass
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Ice
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Poison
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Psychic
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Fire/Water
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+Ghost/Rock
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Steel
+Resistant
+	Takes 24.4% damage
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ghost/Water
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Grass/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ground/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ice/Normal
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ice/Poison
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Ice/Rock
+Resistant
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Normal/Poison
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+Normal/Rock
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Normal/Steel
+Resistant
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+Poison/Psychic
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Poison/Rock
+Resistant
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage
+	Takes 160% damage
+	Takes 160% damage
+Poison/Steel
+Resistant
+	Takes 24.4% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 39.1% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+	Takes 62.5% damage
+Vulnerable
+	Takes 256% damage
+	Takes 160% damage

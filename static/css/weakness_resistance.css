@@ -1,0 +1,290 @@
+/* Ask button styles */
+.ask-btn {
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin: 20px auto;
+    background-color: #4B0082;
+    color: white;
+    text-shadow: 1px 1px #800080;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.ask-btn:hover {
+    background-color: #800080;
+}
+
+.ask-btn:active {
+    transform: scale(0.95);
+}
+
+/* Icons Grid */
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .icon-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .icon-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    position: relative;
+    margin: 5px;
+}
+
+.icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 60%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.icon:hover, .icon.selected {
+    cursor: pointer;
+}
+
+/* Define the specific type colors with semi-transparent background */
+.bug {
+    background: rgba(146, 188, 44, 0.4);
+    box-shadow: 0 0 20px rgba(146, 188, 44, 0.4);
+}
+
+.dark {
+    background: rgba(89, 87, 97, 0.4);
+    box-shadow: 0 0 20px rgba(89, 87, 97, 0.4);
+}
+
+.dragon {
+    background: rgba(12, 105, 200, 0.4);
+    box-shadow: 0 0 20px rgba(12, 105, 200, 0.4);
+}
+
+.electric {
+    background: rgba(242, 217, 78, 0.4);
+    box-shadow: 0 0 20px rgba(242, 217, 78, 0.4);
+}
+
+.fire {
+    background: rgba(251, 165, 76, 0.4);
+    box-shadow: 0 0 20px rgba(251, 165, 76, 0.4);
+}
+
+.fairy {
+    background: rgba(238, 144, 230, 0.4);
+    box-shadow: 0 0 20px rgba(238, 144, 230, 0.4);
+}
+
+.fighting {
+    background: rgba(211, 66, 95, 0.4);
+    box-shadow: 0 0 20px rgba(211, 66, 95, 0.4);
+}
+
+.flying {
+    background: rgba(161, 187, 236, 0.4);
+    box-shadow: 0 0 20px rgba(161, 187, 236, 0.4);
+}
+
+.ghost {
+    background: rgba(95, 109, 188, 0.4);
+    box-shadow: 0 0 20px rgba(95, 109, 188, 0.4);
+}
+
+.grass {
+    background: rgba(95, 189, 88, 0.4);
+    box-shadow: 0 0 20px rgba(95, 189, 88, 0.4);
+}
+
+.ground {
+    background: rgba(218, 124, 77, 0.4);
+    box-shadow: 0 0 20px rgba(218, 124, 77, 0.4);
+}
+
+.ice {
+    background: rgba(117, 208, 193, 0.4);
+    box-shadow: 0 0 20px rgba(117, 208, 193, 0.4);
+}
+
+.normal {
+    background: rgba(160, 162, 159, 0.4);
+    box-shadow: 0 0 20px rgba(160, 162, 159, 0.4);
+}
+
+.poison {
+    background: rgba(183, 99, 207, 0.4);
+    box-shadow: 0 0 20px rgba(183, 99, 207, 0.4);
+}
+
+.psychic {
+    background: rgba(250, 133, 129, 0.4);
+    box-shadow: 0 0 20px rgba(250, 133, 129, 0.4);
+}
+
+.rock {
+    background: rgba(201, 187, 138, 0.4);
+    box-shadow: 0 0 20px rgba(201, 187, 138, 0.4);
+}
+
+.steel {
+    background: rgba(86, 149, 163, 0.4);
+    box-shadow: 0 0 20px rgba(86, 149, 163, 0.4);
+}
+
+.water {
+    background: rgba(83, 157, 223, 0.4);
+    box-shadow: 0 0 20px rgba(83, 157, 223, 0.4);
+}
+
+/* Define hover and selected styles with fully opaque and saturated color */
+.bug:hover, .bug.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(146, 188, 44, 1.0);
+    box-shadow: 0 0 20px rgba(146, 188, 44, 1.0);
+}
+
+.dark:hover, .dark.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(89, 87, 97, 1.0);
+    box-shadow: 0 0 20px rgba(89, 87, 97, 1.0);
+}
+
+.dragon:hover, .dragon.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(12, 105, 200, 1.0);
+    box-shadow: 0 0 20px rgba(12, 105, 200, 1.0);
+}
+
+.electric:hover, .electric.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(242, 217, 78, 1.0);
+    box-shadow: 0 0 20px rgba(242, 217, 78, 1.0);
+}
+
+.fire:hover, .fire.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(251, 165, 76, 1.0);
+    box-shadow: 0 0 20px rgba(251, 165, 76, 1.0);
+}
+
+.fairy:hover, .fairy.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(238, 144, 230, 1.0);
+    box-shadow: 0 0 20px rgba(238, 144, 230, 1.0);
+}
+
+.fighting:hover, .fighting.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(211, 66, 95, 1.0);
+    box-shadow: 0 0 20px rgba(211, 66, 95, 1.0);
+}
+
+.flying:hover, .flying.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(161, 187, 236, 1.0);
+    box-shadow: 0 0 20px rgba(161, 187, 236, 1.0);
+}
+
+.ghost:hover, .ghost.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(95, 109, 188, 1.0);
+    box-shadow: 0 0 20px rgba(95, 109, 188, 1.0);
+}
+
+.grass:hover, .grass.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(95, 189, 88, 1.0);
+    box-shadow: 0 0 20px rgba(95, 189, 88, 1.0);
+}
+
+.ground:hover, .ground.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(218, 124, 77, 1.0);
+    box-shadow: 0 0 20px rgba(218, 124, 77, 1.0);
+}
+
+.ice:hover, .ice.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(117, 208, 193, 1.0);
+    box-shadow: 0 0 20px rgba(117, 208, 193, 1.0);
+}
+
+.normal:hover, .normal.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(160, 162, 159, 1.0);
+    box-shadow: 0 0 20px rgba(160, 162, 159, 1.0);
+}
+
+.poison:hover, .poison.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(183, 99, 207, 1.0);
+    box-shadow: 0 0 20px rgba(183, 99, 207, 1.0);
+}
+
+.psychic:hover, .psychic.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(250, 133, 129, 1.0);
+    box-shadow: 0 0 20px rgba(250, 133, 129, 1.0);
+}
+
+.rock:hover, .rock.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(201, 187, 138, 1.0);
+    box-shadow: 0 0 20px rgba(201, 187, 138, 1.0);
+}
+
+.steel:hover, .steel.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(86, 149, 163, 1.0);
+    box-shadow: 0 0 20px rgba(86, 149, 163, 1.0);
+}
+
+.water:hover, .water.selected {
+    filter: saturate(200%);
+    transform: scale(1.1);
+    background: rgba(83, 157, 223, 1.0);
+    box-shadow: 0 0 20px rgba(83, 157, 223, 1.0);
+}
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokeUniversity</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/navbar.css') }}">
+</head>
+<body>
+
+<div class="topnav">
+    <a class="{{ 'active' if request.endpoint == 'welcome' }}" href="{{ url_for('welcome') }}">Welcome</a>
+    <a class="{{ 'active' if request.endpoint == 'weakness_and_resistance' }}" href="{{ url_for('weakness_and_resistance') }}">Weakness & Resistance</a>
+    <a class="{{ 'active' if request.endpoint == 'pokemon_types' }}" href="{{ url_for('pokemon_types') }}">Pokemon Types</a>
+    <a class="{{ 'active' if request.endpoint == 'movesets' }}" href="{{ url_for('movesets') }}">Movesets</a>
+    <a class="{{ 'active' if request.endpoint == 'energy_management' }}" href="{{ url_for('energy_management') }}">Energy Management</a>
+</div>
+
+</body>
+</html>

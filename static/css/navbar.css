@@ -1,0 +1,27 @@
+.topnav {
+    overflow: hidden;
+    background-color: #4B0082;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    color: white;
+    text-shadow: 1px 1px #A9A9A9; /* Light gray shadow */
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.topnav a:hover {
+    background-color: #800080; /* Lighter purple on hover */
+}
+
+.topnav a.active {
+    background-color: #800080; /* Lighter purple for active link */
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weakness & Resistance</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/weakness_resistance.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+{% include 'navbar.html' %}
+
+<div class="content">
+    <h1>Weakness & Resistance</h1>
+    <form method="POST">
+        <input type="submit" name="ask" value="Ask Question" class="ask-btn" />
+    </form>
+    <div class="icon-grid">
+        {% for icon in icons %}
+            <div class="icon {{ icon }}">
+                <img src="{{ url_for('static', filename='img/type_icons/' + icon + '.svg') }}" alt="{{ icon }}">
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('.icon').on('click', function() {
+            $(this).toggleClass('selected');
+        });
+    });
+</script>
+</body>
+</html>
